@@ -1,49 +1,48 @@
-# Python Password Strength Checker
+# Week 2 — Hands-On with Basic Security Tools
 
-**Program:** Python Password Strength Checker  
-**Learning Track:** Vortex Tech Academy — Cybersecurity Internship  
-**Task:** Week 2, Project 1
+**Program:** Vortex Tech Academy Cybersecurity Internship  
+**Week:** 2 of 4  
+**Status:** Learning tasks completed
 
 ## Overview
 
-A beginner-level Python command-line project that evaluates sample passwords using a small set of defined rules.
+This folder documents my Week 2 hands-on learning with basic security tools.
 
-## Features
+## Project 1 — Python Password Strength Checker
 
-- Checks whether the password has at least 8 characters.
-- Checks uppercase and lowercase letters.
-- Checks for digits and special characters.
-- Flags sample common passwords such as `123456`, `password`, and `qwerty`.
-- Assigns Weak, Medium, or Strong ratings according to the project's rules.
-- Displays feedback for missing checks.
-- Uses Python `getpass` to hide password input in an interactive terminal.
+A beginner-level Python command-line program that evaluates sample passwords using basic validation rules.
 
-## Technologies
+**What I practiced:**
+- Password length checks
+- Uppercase and lowercase letters
+- Numbers and special characters
+- Common-password detection
+- Weak, Medium, and Strong ratings
+- Feedback and sample testing
+- Hidden terminal input using Python's `getpass`
 
-- Python 3
-- Python standard library: `getpass`
+**Project files:** `password_checker.py` and its README.
 
-## How to Run
+## Project 2 — Nmap Port Scanner
 
-1. Install Python 3.
-2. Open a terminal in this project folder.
-3. Run:
+A basic Nmap exercise performed against my own Ubuntu localhost.
 
-```bash
-python3 password_checker.py
-```
+**What I practiced:**
+- Localhost scanning using `127.0.0.1`
+- Understanding open, closed, and filtered port states
+- Service detection using `-sV`
+- Saving scan output
+- Documenting findings and potential security impact
 
-4. Enter a sample password when prompted.
-5. Review the rating and feedback.
+**Project files:** `nmap-localhost.txt`, `nmap-services.txt`, and `nmap-findings.md`, where available.
 
-## Testing
+## Key Learning Outcome
 
-Tested with sample inputs covering common passwords, short passwords, passwords missing special characters, and passwords that satisfy the basic checks.
+Improved my foundational understanding of Python, password security, Linux, network ports, service identification, testing, and technical documentation.
 
-## Security Note
+## Security and Safety
 
-This is an educational demonstration, not a production-grade password security system. Its common-password list is small, and its rating is based on simple rules. Do not use real account passwords for testing.
-
-## Learning Outcome
-
-Practiced Python functions, strings, conditional logic, password checks, hidden terminal input, and basic test-case validation.
+- Use sample passwords only; never publish real passwords or credentials.
+- Scan only systems you own or have explicit permission to test.
+- An open port is not automatically a vulnerability.
+- These projects are educational exercises, not production-grade security tools.
